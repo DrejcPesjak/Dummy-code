@@ -26,4 +26,4 @@ _arrTolist.c_
 > converts a C array to a linked list.
 
 _k-means.py_
-> k-means clustering algorithm for 2 features [not finished]
+> a generic k-means clustering algorithm
