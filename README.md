@@ -27,3 +27,6 @@ _arrTolist.c_
 
 _k-means.py_
 > a generic k-means clustering algorithm
+
+_c_tree.c_
+> is a program that builds a binary tree out of a serialized format
