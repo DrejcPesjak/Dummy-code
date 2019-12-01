@@ -47,9 +47,10 @@ def function(data, numK):
 
 def dist(dataPoint, centroid):
     #absolute difference between two points in multi-dimensional space (Xs and Ys and ...)
+	#manhattan distance
     diff = 0
     for i in range(centroid.size):
-        diff += dataPoint[i]-centroid[i]
+        diff += abs(dataPoint[i]-centroid[i])
         
-    return abs(diff)
+    return diff
 	
